@@ -1,0 +1,162 @@
+/**
+ * @tokens Typography
+ */
+:root {
+  --typography-display-d1-default-font-family: Lato;
+  --typography-display-d1-default-font-size: 64px;
+  --typography-display-d1-default-line-height: 72px;
+  --typography-display-d1-default-letter-spacing: 0.15000000596046448px;
+  --typography-display-d2-default-font-family: Lato;
+  --typography-display-d2-default-font-size: 48px;
+  --typography-display-d2-default-line-height: 64px;
+  --typography-display-d2-default-letter-spacing: 0.15000000596046448px;
+  --typography-title-h1-default-font-family: Lato;
+  --typography-title-h1-default-font-size: 40px;
+  --typography-title-h1-default-line-height: 48px;
+  --typography-title-h1-default-letter-spacing: 0.15000000596046448px;
+  --typography-title-h2-default-font-family: Lato;
+  --typography-title-h2-default-font-size: 36px;
+  --typography-title-h2-default-line-height: 44px;
+  --typography-title-h2-default-letter-spacing: 0.15000000596046448px;
+  --typography-title-h3-default-font-family: Lato;
+  --typography-title-h3-default-font-size: 32px;
+  --typography-title-h3-default-line-height: 40px;
+  --typography-title-h3-default-letter-spacing: 0.15000000596046448px;
+  --typography-title-h3-light-font-family: Lato;
+  --typography-title-h3-light-font-size: 32px;
+  --typography-title-h3-light-line-height: 40px;
+  --typography-title-h3-light-letter-spacing: 0.15000000596046448px;
+  --typography-title-h4-default-font-family: Lato;
+  --typography-title-h4-default-font-size: 28px;
+  --typography-title-h4-default-line-height: 36px;
+  --typography-title-h4-default-letter-spacing: 0.15000000596046448px;
+  --typography-title-h4-emphasized-font-family: Lato;
+  --typography-title-h4-emphasized-font-size: 28px;
+  --typography-title-h4-emphasized-line-height: 36px;
+  --typography-title-h4-emphasized-letter-spacing: 0.15000000596046448px;
+  --typography-title-h4-italic-font-family: Lato;
+  --typography-title-h4-italic-font-size: 28px;
+  --typography-title-h4-italic-line-height: 36px;
+  --typography-title-h4-italic-letter-spacing: 0.15000000596046448px;
+  --typography-subtitle-sub1-default-font-family: Lato;
+  --typography-subtitle-sub1-default-font-size: 24px;
+  --typography-subtitle-sub1-default-line-height: 32px;
+  --typography-subtitle-sub1-default-letter-spacing: 0.15000000596046448px;
+  --typography-subtitle-sub1-emphasized-font-family: Lato;
+  --typography-subtitle-sub1-emphasized-font-size: 24px;
+  --typography-subtitle-sub1-emphasized-line-height: 32px;
+  --typography-subtitle-sub1-emphasized-letter-spacing: 0.15000000596046448px;
+  --typography-subtitle-sub1-italic-font-family: Lato;
+  --typography-subtitle-sub1-italic-font-size: 24px;
+  --typography-subtitle-sub1-italic-line-height: 32px;
+  --typography-subtitle-sub1-italic-letter-spacing: 0.15000000596046448px;
+  --typography-subtitle-sub2-default-font-family: Lato;
+  --typography-subtitle-sub2-default-font-size: 20px;
+  --typography-subtitle-sub2-default-line-height: 28px;
+  --typography-subtitle-sub2-default-letter-spacing: 0.15000000596046448px;
+  --typography-subtitle-sub2-emphasized-font-family: Lato;
+  --typography-subtitle-sub2-emphasized-font-size: 20px;
+  --typography-subtitle-sub2-emphasized-line-height: 28px;
+  --typography-subtitle-sub2-emphasized-letter-spacing: 0.15000000596046448px;
+  --typography-subtitle-sub2-italic-font-family: Lato;
+  --typography-subtitle-sub2-italic-font-size: 20px;
+  --typography-subtitle-sub2-italic-line-height: 28px;
+  --typography-subtitle-sub2-italic-letter-spacing: 0.15000000596046448px;
+  --typography-body-body1-default-font-family: Lato;
+  --typography-body-body1-default-font-size: 20px;
+  --typography-body-body1-default-line-height: 28px;
+  --typography-body-body1-default-letter-spacing: 0.15000000596046448px;
+  --typography-body-body1-emphasized-font-family: Lato;
+  --typography-body-body1-emphasized-font-size: 20px;
+  --typography-body-body1-emphasized-line-height: 28px;
+  --typography-body-body1-emphasized-letter-spacing: 0.15000000596046448px;
+  --typography-body-body1-italicized-font-family: Lato;
+  --typography-body-body1-italicized-font-size: 20px;
+  --typography-body-body1-italicized-line-height: 28px;
+  --typography-body-body1-italicized-letter-spacing: 0.15000000596046448px;
+  --typography-body-body2-default-font-family: Lato;
+  --typography-body-body2-default-font-size: 18px;
+  --typography-body-body2-default-line-height: 24px;
+  --typography-body-body2-default-letter-spacing: 0.15000000596046448px;
+  --typography-body-body2-emphasized-font-family: Lato;
+  --typography-body-body2-emphasized-font-size: 18px;
+  --typography-body-body2-emphasized-line-height: 24px;
+  --typography-body-body2-emphasized-letter-spacing: 0.15000000596046448px;
+  --typography-body-body2-italicized-font-family: Lato;
+  --typography-body-body2-italicized-font-size: 18px;
+  --typography-body-body2-italicized-line-height: 24px;
+  --typography-body-body2-italicized-letter-spacing: 0.15000000596046448px;
+  --typography-body-body3-default-font-family: Lato;
+  --typography-body-body3-default-font-size: 16px;
+  --typography-body-body3-default-line-height: 24px;
+  --typography-body-body3-default-letter-spacing: 0.15000000596046448px;
+  --typography-body-body3-emphasized-font-family: Lato;
+  --typography-body-body3-emphasized-font-size: 16px;
+  --typography-body-body3-emphasized-line-height: 24px;
+  --typography-body-body3-emphasized-letter-spacing: 0.15000000596046448px;
+  --typography-body-body3-italicized-font-family: Lato;
+  --typography-body-body3-italicized-font-size: 16px;
+  --typography-body-body3-italicized-line-height: 24px;
+  --typography-body-body3-italicized-letter-spacing: 0.15000000596046448px;
+  --typography-small-small1-default-font-family: Lato;
+  --typography-small-small1-default-font-size: 14px;
+  --typography-small-small1-default-line-height: 18px;
+  --typography-small-small1-default-letter-spacing: 0.15000000596046448px;
+  --typography-small-small2-default-font-family: Lato;
+  --typography-small-small2-default-font-size: 12px;
+  --typography-small-small2-default-line-height: 16px;
+  --typography-small-small2-default-letter-spacing: 0.15000000596046448px;
+  --typography-button-button-default-font-family: Lato;
+  --typography-button-button-default-font-size: 16px;
+  --typography-button-button-default-line-height: 24px;
+  --typography-button-button-default-letter-spacing: 1.149999976158142px;
+  --typography-button-button-link-font-family: Lato;
+  --typography-button-button-link-font-size: 16px;
+  --typography-button-button-link-line-height: 24px;
+  --typography-button-button-link-letter-spacing: 0.15000000596046448px;
+  --typography-input-field-inside-label-font-family: Lato;
+  --typography-input-field-inside-label-font-size: 12px;
+  --typography-input-field-inside-label-line-height: 16px;
+  --typography-input-field-inside-label-letter-spacing: 0.15000000596046448px;
+  --typography-input-field-input-font-family: Lato;
+  --typography-input-field-input-font-size: 18px;
+  --typography-input-field-input-line-height: 24px;
+  --typography-input-field-input-letter-spacing: 0.15000000596046448px;
+  --typography-input-field-placeholder-font-family: Lato;
+  --typography-input-field-placeholder-font-size: 18px;
+  --typography-input-field-placeholder-line-height: 24px;
+  --typography-input-field-placeholder-letter-spacing: 0.15000000596046448px;
+}
+
+/**
+ * @tokens Radius
+ * @presenter BorderRadius
+ */
+:root {
+  --radius-button-square: 8px;
+  --radius-button-round: 128px;
+  --radius-card-default: 8px;
+  --radius-dialog-box-default: 32px;
+  --radius-input-field-md: 8px;
+  --radius-input-field-lg: 32px;
+  --radius-bottom-sheet-default: 40px;
+}
+
+/**
+ * @tokens Border-width
+ * @presenter BorderWidth
+ */
+:root {
+  --border-width-card-outline: 1px;
+  --border-width-card-filled: 0px;
+  --border-width-card-elevated: 0px;
+  --border-width-input-field-default: 1px;
+  --border-width-input-field-hover: 1px;
+  --border-width-input-field-focused: 1px;
+  --border-width-input-field-warning: 1px;
+  --border-width-input-field-error: 1px;
+  --border-width-input-field-disabled: 1px;
+  --border-width-button-outline: 1px;
+  --border-width-inline-notification-default: 0px;
+  --border-width-modal-header-default: 1px;
+}

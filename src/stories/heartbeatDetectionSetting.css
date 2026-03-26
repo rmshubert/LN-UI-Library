@@ -1,0 +1,104 @@
+.hds-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+  /* 5 circles × 40px + 4 gaps × 8px + 2 × 16px padding */
+  min-width: 264px;
+}
+
+/* Track bar */
+.hds-track {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  background-color: var(--surface-brand-primary-muted, #f4f6fe);
+  border-radius: 25px;
+  padding: 0 16px;
+  height: 24px;
+  overflow: visible;
+  width: 100%;
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+
+.hds-track--disabled {
+  background-color: var(--surface-disabled-default, #f4f5f9);
+}
+
+/* Step circles — unselected by default */
+.hds-step {
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  border: none;
+  background-color: transparent;
+  color: var(--text-primary-body, #545c97);
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0.15px;
+  line-height: 24px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.1s ease, background-color 0.1s ease;
+  outline: none;
+}
+
+.hds-step:hover:not(:disabled) {
+  background-color: var(--surface-brand-primary-subtle, #c9d1f9);
+  border-radius: 50%;
+}
+
+.hds-step:focus-visible {
+  box-shadow: 0 0 0 3px rgba(69, 106, 234, 0.35);
+}
+
+/* Selected step gets the filled circle */
+.hds-step--selected {
+  background-color: var(--surface-brand-primary-default, #456aea);
+  color: white;
+  transform: scale(1.1);
+}
+
+.hds-step--disabled {
+  color: var(--text-disabled-default, #9297b4);
+  cursor: not-allowed;
+  transform: none;
+}
+
+.hds-step--disabled.hds-step--selected {
+  background-color: #a3b4f4;
+  color: white;
+}
+
+/* Labels */
+.hds-labels {
+  display: flex;
+  justify-content: space-between;
+  color: var(--text-primary-body, #545c97);
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.15px;
+  line-height: 24px;
+  padding: 0 4px;
+}
+
+.hds-labels--disabled {
+  color: var(--text-disabled-default, #9297b4);
+}
+
+.hds-label-start {
+  width: 64px;
+  text-align: center;
+}
+
+.hds-label-end {
+  width: 64px;
+  text-align: center;
+}

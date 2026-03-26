@@ -1,0 +1,225 @@
+/**
+ * @tokens Colors
+ * @presenter Color
+ */
+:root {
+  --colors-neutrals-white: #ffffff;
+  --colors-neutrals-black: #000000;
+  --colors-livanova-logo-purple-600: #9d19d1;
+  --colors-livanova-logo-neutral-50: #eeeeee;
+  --colors-livanova-logo-neutral-600: #060606;
+  --colors-stellar-black-50: #ececfc;
+  --colors-stellar-black-100: #cdd2e6;
+  --colors-stellar-black-200: #b0b5cd;
+  --colors-stellar-black-300: #9297b4;
+  --colors-stellar-black-400: #7c82a0;
+  --colors-stellar-black-500: #666d8e;
+  --colors-stellar-black-600: #585f7e;
+  --colors-stellar-black-700: #474d67;
+  --colors-stellar-black-800: #363b51;
+  --colors-stellar-black-850: #23273a;
+  --colors-stellar-black-900: #121212;
+  --colors-stellar-muted-purple-50: #fafafc;
+  --colors-stellar-muted-purple-100: #f4f5f9;
+  --colors-stellar-muted-purple-200: #e9eaf2;
+  --colors-stellar-muted-purple-300: #c6cae1;
+  --colors-stellar-muted-purple-400: #a2a9cc;
+  --colors-stellar-muted-purple-500: #7f87b7;
+  --colors-stellar-muted-purple-600: #656da8;
+  --colors-stellar-muted-purple-700: #545c97;
+  --colors-stellar-muted-purple-800: #3b3d6a;
+  --colors-stellar-brand-blue-50: #fafbff;
+  --colors-stellar-brand-blue-100: #f4f6fe;
+  --colors-stellar-brand-blue-200: #e9ecfd;
+  --colors-stellar-brand-blue-250: #d9def9;
+  --colors-stellar-brand-blue-300: #c9d1f9;
+  --colors-stellar-brand-blue-400: #a3b4f4;
+  --colors-stellar-brand-blue-500: #7b95f0;
+  --colors-stellar-brand-blue-600: #5779f0;
+  --colors-stellar-brand-blue-650: #4f73ed;
+  --colors-stellar-brand-blue-700: #4b6fee;
+  --colors-stellar-brand-blue-750: #456aea;
+  --colors-stellar-brand-blue-800: #3b5fde;
+  --colors-stellar-brand-blue-850: #3458d3;
+  --colors-stellar-brand-blue-900: #2c51d3;
+  --colors-stellar-brand-purple-50: #f3e5f0;
+  --colors-stellar-brand-purple-100: #e1bedc;
+  --colors-stellar-brand-purple-200: #cd93c5;
+  --colors-stellar-brand-purple-300: #b869ae;
+  --colors-stellar-brand-purple-400: #a84a9d;
+  --colors-stellar-brand-purple-500: #982f8e;
+  --colors-stellar-brand-purple-600: #8c2b88;
+  --colors-stellar-brand-purple-700: #7c2580;
+  --colors-stellar-brand-purple-800: #6d2077;
+  --colors-stellar-red-50: #ffebec;
+  --colors-stellar-red-100: #ffd5d8;
+  --colors-stellar-red-200: #ffabab;
+  --colors-stellar-red-300: #ff8980;
+  --colors-stellar-red-400: #ff6c60;
+  --colors-stellar-red-500: #d63333;
+  --colors-stellar-red-600: #a7000e;
+  --colors-stellar-red-700: #690008;
+  --colors-stellar-yellow-100: #fff8e2;
+  --colors-stellar-yellow-200: #fee6b3;
+  --colors-stellar-yellow-300: #fcd07f;
+  --colors-stellar-yellow-400: #d79641;
+  --colors-stellar-yellow-500: #cc8304;
+  --colors-stellar-yellow-600: #a15800;
+  --colors-stellar-yellow-700: #794100;
+  --colors-stellar-green-100: #ebfffa;
+  --colors-stellar-green-200: #c7fee8;
+  --colors-stellar-green-300: #72d3b8;
+  --colors-stellar-green-400: #00a880;
+  --colors-stellar-green-500: #008869;
+  --colors-stellar-green-600: #116556;
+  --colors-stellar-green-700: #084037;
+  --colors-stellar-magenta-50: #f9f0f6;
+  --colors-stellar-magenta-100: #f6e4f0;
+  --colors-stellar-magenta-200: #e9bbdb;
+  --colors-stellar-magenta-300: #db8ec4;
+  --colors-stellar-magenta-400: #cb5fad;
+  --colors-stellar-magenta-500: #be399c;
+  --colors-stellar-magenta-600: #b0008e;
+  --colors-stellar-magenta-700: #820069;
+  --colors-stellar-magenta-800: #6b0056;
+  --colors-stellar-teal-50: #effbfc;
+  --colors-stellar-teal-100: #dff6f9;
+  --colors-stellar-teal-200: #afeaef;
+  --colors-stellar-teal-250: #b1dadd;
+  --colors-stellar-teal-300: #7bdce6;
+  --colors-stellar-teal-400: #42cddb;
+  --colors-stellar-teal-500: #00c2d4;
+  --colors-stellar-teal-600: #00b8ce;
+  --colors-stellar-teal-700: #08abbe;
+  --colors-stellar-teal-800: #0c9cad;
+  --colors-stellar-teal-900: #0a8c9b;
+  --colors-stellar-dark-blue-25: #f6fcff;
+  --colors-stellar-dark-blue-50: #e2eff7;
+  --colors-stellar-dark-blue-100: #b8d7ee;
+  --colors-stellar-dark-blue-200: #8dbfe2;
+  --colors-stellar-dark-blue-300: #65a6d6;
+  --colors-stellar-dark-blue-400: #4894cf;
+  --colors-stellar-dark-blue-500: #2d84c8;
+  --colors-stellar-dark-blue-600: #2677bb;
+  --colors-stellar-dark-blue-700: #1d66aa;
+  --colors-stellar-dark-blue-800: #155698;
+  --colors-stellar-dark-blue-850: #124c92;
+  --colors-stellar-dark-blue-900: #073b79;
+  --colors-stellar-purple-50: #fcf9fe;
+  --colors-stellar-purple-100: #f9f3fd;
+  --colors-stellar-purple-200: #f2e7fb;
+  --colors-stellar-purple-300: #dfc2f5;
+  --colors-stellar-purple-400: #ca9aef;
+  --colors-stellar-purple-450: #bf86ec;
+  --colors-stellar-purple-500: #b571e9;
+  --colors-stellar-purple-600: #a452e3;
+  --colors-stellar-opacity-black-neutral-85: #121212d9;
+  --colors-stellar-opacity-black-neutral-70: #23273ab3;
+  --colors-stellar-opacity-black-neutral-50: #23273a80;
+  --colors-stellar-opacity-black-neutral-30: #23273a4d;
+  --colors-stellar-opacity-black-neutral-15: #23273a26;
+  --colors-stellar-opacity-muted-purple-muted-purple-70: #656da8b3;
+  --colors-stellar-opacity-muted-purple-muted-purple-30: #656da84d;
+  --colors-stellar-opacity-muted-purple-muted-purple-20: #656da833;
+  --colors-stellar-opacity-inverse-white-85: #ffffffd9;
+  --colors-stellar-opacity-inverse-white-70: #ffffffb3;
+  --colors-stellar-opacity-inverse-white-60: #ffffff99;
+  --colors-stellar-opacity-inverse-white-50: #ffffff80;
+  --colors-stellar-opacity-inverse-white-40: #ffffff66;
+  --colors-stellar-opacity-inverse-white-30: #ffffff4d;
+  --colors-stellar-opacity-inverse-white-15: #ffffff26;
+}
+
+/**
+ * @tokens Typography
+ */
+:root {
+  --typography-font-family-default: Lato;
+  --typography-font-size-1200: 64px;
+  --typography-font-size-1100: 48px;
+  --typography-font-size-1000: 40px;
+  --typography-font-size-900: 36px;
+  --typography-font-size-800: 32px;
+  --typography-font-size-700: 28px;
+  --typography-font-size-600: 24px;
+  --typography-font-size-500: 20px;
+  --typography-font-size-400: 18px;
+  --typography-font-size-300: 16px;
+  --typography-font-size-200: 14px;
+  --typography-font-size-100: 12px;
+  --typography-line-height-1200: 72px;
+  --typography-line-height-1100: 64px;
+  --typography-line-height-1000: 60px;
+  --typography-line-height-900: 48px;
+  --typography-line-height-800: 44px;
+  --typography-line-height-700: 40px;
+  --typography-line-height-600: 36px;
+  --typography-line-height-500: 32px;
+  --typography-line-height-400: 28px;
+  --typography-line-height-300: 24px;
+  --typography-line-height-200: 18px;
+  --typography-line-height-100: 16px;
+  --typography-letter-spacing-200: 1.149999976158142px;
+  --typography-letter-spacing-100: 0.15000000596046448px;
+  --typography-letter-spacing-none: 0;
+  --typography-letter-spacing-neg100: -0.15000000596046448px;
+}
+
+/**
+ * @tokens Scale
+ * @presenter Spacing
+ */
+:root {
+  --scale-scale-1200: 128px;
+  --scale-scale-1000: 96px;
+  --scale-scale-900: 80px;
+  --scale-scale-850: 72px;
+  --scale-scale-800: 64px;
+  --scale-scale-700: 56px;
+  --scale-scale-600: 48px;
+  --scale-scale-500: 40px;
+  --scale-scale-400: 32px;
+  --scale-scale-300: 24px;
+  --scale-scale-250: 20px;
+  --scale-scale-225: 18px;
+  --scale-scale-200: 16px;
+  --scale-scale-175: 14px;
+  --scale-scale-150: 12px;
+  --scale-scale-125: 10px;
+  --scale-scale-100: 8px;
+  --scale-scale-75: 6px;
+  --scale-scale-50: 4px;
+  --scale-scale-25: 2px;
+  --scale-scale-15: 1px;
+  --scale-scale-5: 0.5px;
+  --scale-scale-0: 0;
+}
+
+/**
+ * @tokens Border width
+ * @presenter BorderWidth
+ */
+:root {
+  --border-width-lg: 8px;
+  --border-width-md: 4px;
+  --border-width-sm: 2px;
+  --border-width-xs: 1px;
+  --border-width-xxs: 0.5px;
+  --border-width-none: 0px;
+}
+
+/**
+ * @tokens Radius
+ * @presenter BorderRadius
+ */
+:root {
+  --radius-round: 128px;
+  --radius-xxxl: 40px;
+  --radius-xxl: 32px;
+  --radius-xl: 16px;
+  --radius-lg: 12px;
+  --radius-md: 8px;
+  --radius-sm: 4px;
+  --radius-xs: 2px;
+  --radius-none: 0;
+}

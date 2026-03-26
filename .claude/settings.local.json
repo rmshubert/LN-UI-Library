@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__437a2e17-9beb-4a62-a2a1-81c5b92a10c2__send_code_connect_mappings",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(gh auth:*)",
+      "Bash(git init:*)",
+      "Bash(git remote:*)",
+      "Bash(git add:*)"
+    ]
+  }
+}
